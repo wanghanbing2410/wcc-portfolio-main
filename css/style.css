@@ -98,7 +98,28 @@ footer{
 }
 
 .flex-item a#my-special-id-7{
-    background-image: url('../assets/images/Guo Xi.jpg'); 
+    background-image: url('../assets/images/IMG_6377.JPG'); 
+}
+
+.flex-item a#my-special-id-8{
+    background-image: url('../assets/images/IMG_8591.JPG'); 
+}
+
+.flex-item a#my-special-id-9{
+    background-image: url('../assets/images/index.png'); 
+}
+
+
+.flex-item a#my-special-id-10{
+    background-image: url('../assets/images/IMG_0260.JPG'); 
+}
+
+.flex-item a#my-special-id-11{
+    background-image: url('../assets/images/Screen-2023-04-24-235417.00_00_02_00.Still001.jpg'); 
+}
+
+.flex-item a#my-special-id-12{
+    background-image: url('../assets/images/IMG_0925.jpg'); 
 }
 
 .flex-item a:hover{
