@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <!-- meta viewport tag needed to make site responsive on mobile devices https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>WCC Portfolio - Demo Page</title>
+
+        <!-- including for some global styling -->
+        <link rel="stylesheet" href="../css/style.css">
+        <!-- if I had some styling I wanted to include on one special page -->
+        <link rel="stylesheet" href="css/demo-style.css">
+
+    </head>
+    <body>
+        <!-- if you have sub-pages think about adding a simple back button -->
+        <nav>
+            <a href="../">Back to Home</a>
+        </nav>
+        <header>
+            <h1>Growing Without End 生生</h1>
+            <p>An immersive interactive experience space based on machine learning.</p> 
+        </header>
+
+        <main>
+            <section>
+                <h3>Vimeo Video</h3>
+                <div class="responsive-video">
+                    <iframe src="https://player.vimeo.com/video/858148489?h=3c3ff021f8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="640" height="437" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Flying Shadow 杏花天影"></iframe>
+                    <!-- <iframe title="vimeo-player" src="https://player.vimeo.com/video/644036051?h=b260a3b1b0" width="100%" height="100%" frameborder="0" allowfullscreen></iframe> -->
+                </div>
+                <p> "Growing Without End" employs neural network machine learning technology to examine the relationships and conflicts within Chinese culture across various global contexts. The project seeks to explore the potential for establishing new ties between different regions amidst globalization, diversification, and decentralization. Symbolizing cultural fusion through image fusion, it aims to create an abstract, fluid, and cohesive shared experience based on common body movements. The ultimate goal is to forge aesthetic, experiential, and spiritual connections among various Chinese cultural groups through this medium. 
+            </section>
+            <section>
+                <h3>Images</h3>
+                <img id="striped-image" src="../assets/images/MVI_8602.00_00_27_18.Still003.jpg"/>
+                <img id="striped-image" src="../assets/images/MVI_8617.00_00_00_00.Still001.jpg"/>
+                <img id="striped-image" src="../assets/images/MVI_8602.00_01_30_04.Still027.jpg"/>
+                <img id="striped-image" src="../assets/images/MVI_8602.00_01_39_21.Still026.jpg"/>
+                <img id="striped-image" src="../assets/images/MVI_8602.00_00_41_19.Still032.jpg"/>
+                <img id="striped-image" src="../assets/images/MVI_8602.00_01_35_20.Still036.jpg"/>
+                <img id="striped-image" src="../assets/images/MVI_8602.00_01_44_15.Still014.jpg"/>
+                <img id="striped-image" src="../assets/images/MVI_8614.00_00_04_20.Still001.jpg"/>
+                <p>"As a Chinese who grew up in China's native culture, studying abroad gave me the opportunity to come into contact with Chinese communities from different countries and regions. In the process of interacting with them, I deeply felt the isolation and conflict between different Chinese cultures. This phenomenon inspired me to explore how to bridge the cultural gap between us, which is rooted in the same culture but has significant differences, and activate our inner cultural resonance.
+                    The project used projector and KinectV2, sound equipment. The final projection space accommodated more than three interactors at the same time. All images are generated in advance by machine learning, but the fragmentation, fusion, and final abstract presentation of the images are dynamically adjusted according to human movement. In designing the algorithm, we deeply studied the influencing factors and tipping points and conducted weighted evaluations of the number of people and movement states.
+                    For the image learning strategy, we first conduct classification learning for major categories, then cross-learning to optimize the accuracy and generalization capability of the model. The final stylized images should be based on machine learning, incorporating a large amount of material, while maintaining authenticity and a sense of surrealism, to showcase the characteristics of the localization of Chinese culture globally.
+                    The sound part of "Growing Without End" utilizes granular synthesis, modular synthesis technology, and innovative use of Chinese musical instruments to create a completely new sound spectrum. This sound, centered on abstract electronic wave sounds with Chinese elements, displays the transition process from the sound elements of mundane life worldwide to the mainline sound, creating a digital sound environment rich in the local features of Chinese culture worldwide, mixed, and full of "life atmosphere".
+
+The project uses three layers of sound as three interactive modules: first, the "mundane life" module presents blurred mixed sounds of various cultures, which gradually weaken and eventually merge into the mainline sound as the interaction increases; second, the "background sound" module constantly cycles in the background as the mainline sound, becoming clearer as the interaction increases; finally, the "climax sound" module acts as a dynamic element, marking the start and end of the interaction. During the interaction process, the initial stage features "mundane life" as the main sound, "background sound" volume is smaller, as the interaction deepens, "mundane life" volume decreases, "background sound" increases, when the interaction reaches a certain level, "climax sound" appears, then enters a new cycle.
+
+The core of sound design is to connect sound changes with the collective bodily movement of interactors, forming a state similar to a surging crowd. This dynamic sound change, coupled with the visual effect of particles, together forms a comprehensive, dynamic experiential space, powerfully demonstrating the project's theme—"Growing Without End".
+The core of the interactive design of "Growing Without End" lies in adjusting the fragmentation, fusion, and final abstract presentation of images through human dynamic movement. To achieve this design, we deeply studied the influencing factors and tipping points and conducted precise weighted evaluations of the number of people and movement states.
+
+In terms of projection, I constructed a circular projection space, ideally the whole space is covered by projection, including the ceiling and the floor, so as to create a sense of "transformation".
+
+In such a space, the "life atmosphere" not only exists on the screen but also fills the entire physical space. It is embodied, interwoven with each participant's body and its movement relationship, making the interaction between people and spatial imagery truly connected, allowing the audience to truly enter the context of the localization of Chinese culture globally, experiencing the diversity and integration of Chinese culture.
+Utilizing machine learning, data processing, and Kinect technology, I employed the machine learning algorithm, StyleGAN2, to generate distinct images. The Kinect was instrumental in detecting the nodes of the human anatomy, which was essential for ascertaining both the number of individuals in a given space and the intensity of their movement. As the count of individuals or the intensity of movement escalates, the playback speed of Video1 is heightened. Concurrently, Sound1's volume amplifies while Sound2's volume diminishes. Upon reaching a specified threshold in terms of number of people or movement intensity, Video2 and Sound3 are activated for playback. Moreover, I harnessed processing to depict the participants' physique in a particle state, thus augmenting the interactive dimension between the participants and the visual display.
+The cultural backgrounds and personal expectations of the participants help to orientate themselves when they come into contact with the installation, while the characteristics of the spatial environment further influence the way they interact with the installation.
+
+The project is not concerned with Chinese culture, but with the diversity of identities and the possible connections between people, and the joint action of all participants will constitute a new aesthetic form, symbolizing the original and essence of culture. The project welcomes the participation of groups from all other cultures, whose presence will transform images that challenge and broaden our understanding of Chinese culture."</p>
+            </section>
+
+        </main>
+
+        <footer>
+            <!-- normally information like contact details etc  -->
+            <!-- read more about semantic HTML https://www.w3schools.com/html/html5_semantic_elements.asp -->
+            
+         </footer>
+    </body>
+</html>
